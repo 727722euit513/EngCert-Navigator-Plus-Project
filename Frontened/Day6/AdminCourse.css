@@ -1,0 +1,95 @@
+/* AdminCourse.css */
+
+body {
+  background-image: url('https://tse2.mm.bing.net/th?id=OIP.ly_1xe9tekgyb37HeI6lbQHaKe&pid=Api&P=0&h=180'); /* Replace 'your-image-url.jpg' with the actual URL or path to your image */
+  background-size: cover;
+  height: 400px;
+  width: 1490px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0; /* Reset default body margin */
+}
+
+.admin-course-container {
+  margin: 20px;
+  margin-bottom: 550px;
+  position: relative; /* Ensure the position is set for z-index to work */
+  z-index: 1; /* Set z-index to ensure the container is above the background image */
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-right: 250px;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.1);
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid #d8d3d3;
+  padding: 8px;
+  text-align: left;
+}
+
+.course-table th {
+  background-color: #615f5f;
+}
+
+.course-table td img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+}
+
+.course-table th h2 {
+  display: inline-block;
+  border-bottom: 2px solid #7180df;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  animation: headingAnimation 1s ease-in-out infinite alternate;
+}
+
+@keyframes headingAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.add-course-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.add-course-form input {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.add-btn,
+.update-btn {
+  padding: 10px;
+  background-color: #768dd4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover,
+.update-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.add-btn:focus,
+.update-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

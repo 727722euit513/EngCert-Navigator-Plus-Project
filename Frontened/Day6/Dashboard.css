@@ -1,0 +1,94 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  padding: 120px;
+  background-image: url('https://tse2.mm.bing.net/th?id=OIP.mfGg6YzACRKeJiclaNhezwAAAA&pid=Api&P=0&h=180'); /* Replace 'your-image-url.jpg' with the actual URL or path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; /* Ensure the position is set for z-index to work */
+  z-index: 1; /* Set z-index to ensure the background is behind other content */
+}
+
+.dashboard-header {
+  text-align: center;
+}
+
+.dashboard-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stat-card {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(116, 133, 44, 0.1);
+  width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.stat-card:hover {
+  transform: scale(1.05);
+}
+
+.users {
+  background-color: #08c952;
+  color: #fff;
+}
+
+.courses {
+  background-color: #0e0ec5;
+  color: #ffffff;
+}
+
+.requests {
+  background-color: #b91165;
+  color: #fff;
+}
+
+.dashboard-recent-activities {
+  background-color: #ecf0f1;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.dashboard-recent-activities:hover {
+  transform: scale(1.02);
+}
+
+.dashboard-recent-activities h2 {
+  margin-bottom: 10px;
+}
+
+.dashboard-recent-activities ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-recent-activities li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .dashboard-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-card {
+    width: 100%;
+  }
+
+  .dashboard-recent-activities {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,9 @@
+.bg{
+    background-image: url("https://i.pinimg.com/originals/83/75/71/8375717df65288a0c4b76a5af5f246af.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1700px;
+    height: 800px;
+    background-position: fixed;
+
+}
