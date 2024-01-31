@@ -1,0 +1,33 @@
+/* Home.css */
+
+/* Container styles */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Navbar button styles */
+  .nav-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .nav-button:hover {
+    background-color: #2980b9; /* Hover background color */
+  }
+  

@@ -1,0 +1,30 @@
+/* AboutUs.css */
+
+/* Container styles with background image */
+.about-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://image-editing-services.com/wp-content/uploads/2018/10/about-us-background.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 740px;
+    width: 1886px;
+  }
+  
+  /* Heading styles */
+  .about-heading {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph styles */
+  .about-paragraph {
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
